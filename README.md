@@ -4,7 +4,7 @@ Final project for second microcontrollers course at AGH, Cracow. The sensor plat
 ![](https://cloud.githubusercontent.com/assets/25593055/22663203/0d1d30ce-ecac-11e6-8479-7e0b9328e5e0.jpg)
 
 ## Description
-Sensor platform uses Nextion NX4832K035 display for presenting collected infromation. Both i2c and UART libraries were written for this project. Freescale KL46 family microcontroler acquires the data from sensors, averages them and sends to display. Every 20 seconds samples are sent to thingspeak channel.
+Sensor platform uses Nextion NX4832K035 display for presenting collected infromation. Both i2c and UART libraries were written for this project. Freescale KL46 family microcontroler acquires the data from sensors, averages them and sends to display. Every 20 seconds samples are sent to a thingspeak channel.
 
 ![](https://cloud.githubusercontent.com/assets/25593055/22663204/0d1d9aaa-ecac-11e6-9044-d8223159bb86.png)
 
